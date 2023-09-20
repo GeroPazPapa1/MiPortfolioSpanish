@@ -23,7 +23,7 @@ const greeting = {
   username: "Paz Papa",
   title: "Hola, soy Gero!",
   subTitle: emoji(
-    "Un apasionado ingenierio y desarrollador de software Full Stack 🚀con experiencia en la creación de aplicaciones web con JavaScript / Reactjs / Nodejs / React Native y algunas otras bibliotecas y frameworks interesantes. Ingenieria y MKT mis otras dos pasiones!"
+    "Un apasionado ingenierio y desarrollador de software Full Stack 🚀con experiencia en la creación de aplicaciones web con JavaScript / React / Node / Express y algunas otras bibliotecas y frameworks interesantes. Ingenieria y MKT mis otras dos pasiones!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1FAUePMtnskBegJPIWZgRRwjt5ue4ZIJd/view?usp=sharing", // Set to empty to hide the button
@@ -55,12 +55,14 @@ const skillsSection = {
     "Soy un desarrollador copado que le gusta investifar diferentes tech stack y tambien ademas, aprender de los compañeros!",
   skills: [
     emoji(
-      "⚡ Desarrollé interfaces de Front-end / user, altamente interactivas para sus aplicaciones web y móviles"
+      "⚡ Desarrollo proyectos web en Front-end / Back-end, altamente interactivas para sus aplicaciones web y móviles"
     ),
     emoji(
-      "⚡ Trabajé también en marketing, realizando activaciones de marca, como así también edición de videos/fotos"
+      "⚡ Trabajo también en marketing, realizando activaciones de marca, como en edición de videos / fotos también"
     ),
-    emoji("⚡ Integración de servicios de terceros como Firebase/ Google")
+    emoji(
+      "⚡ Busco la manera de resolver procesos y problemas de manera eficiente y practica, con una mirada ingenieril"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -75,46 +77,46 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    //{
-    //  skillName: "sass",
-    //  fontAwesomeClassname: "fab fa-sass"
-    //},
     {
-      skillName: "JavaScript",
+      skillName: "JAVASCRIPT",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "ReactJS",
+      skillName: "EXPRESS JS",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "REACT JS",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "NodeJS",
+      skillName: "NODE JS",
       fontAwesomeClassname: "fab fa-node"
     },
-    //{
-    //  skillName: "swift",
-    //  fontAwesomeClassname: "fab fa-swift"
-    //},
     {
-      skillName: "npm",
+      skillName: "SLACK",
+      fontAwesomeClassname: "fa-brands fa-slack"
+    },
+    {
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "Postgres-SQL",
+      skillName: "POSTGRES-SQL",
       fontAwesomeClassname: "fas fa-database"
     },
-    //{
-    //  skillName: "aws",
-    // fontAwesomeClassname: "fab fa-aws"
-    //},
     {
-      skillName: "firebase",
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "FIREBASE",
       fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "TRELLO",
+      FontAwesomeIconClassname: "fa-brands fa-trello"
     }
-    //{
-    //  skillName: "python",
-    //  fontAwesomeClassname: "fab fa-python"
-    //},
     //{
     //  skillName: "docker",
     //  fontAwesomeClassname: "fab fa-docker"
@@ -169,8 +171,8 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Diseño en imagenes / videos",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -182,7 +184,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full Stack Developer Junior, Marketing",
+      role: "Full Stack Developer, Marketing",
       company: "Freelance",
       companylogo: require("./assets/images/fullstackLogo.jpg"),
       date: "Mar 2020 - Actual",
@@ -196,7 +198,7 @@ const workExperiences = {
     },
     {
       role: "Community Manager",
-      company: "Scale Webs",
+      company: "Scale Webs Miami",
       companylogo: require("./assets/images/scaleLogo.jpg"),
       date: "Jun 2023 - Actual",
       desc: "Áreas de producto terminado, de calidad y planificación.",
@@ -254,7 +256,7 @@ const bigProjects = {
         "Mi historia con este proyecto o pagina web, empezo en 2022 cuando al crearle una carta de presentacion, para que pueda mostrar sus obras, a un arquitecto que vive en Manhattan, tuvimos una muy buena relacion laboral, por lo que le di la confianza para que me invitara luego a trabajar y vivir unos meses por allá!",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visitar Website",
           url: "https://www.jreverberi.com/"
         }
         //  you can add extra buttons here.
@@ -267,7 +269,7 @@ const bigProjects = {
         "Este proyecto o pagina web, esta realizado como una landing page de la informacion y servicios que ofrece el estudio. Contiene efectos y elementos muy profesionales para brindarle al cliente la mejor presentacion.",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visitar Website",
           url: "https://www.estudiocontablepaz.com.ar/"
         }
       ]
@@ -279,7 +281,7 @@ const bigProjects = {
         "En este proyecto, realice una página web para un grupo de inversores quienes crearon, diseñaron y comercializan una nueva marca de ropa, llamada Just4Vibes, donde priorice el minimalismo para que el protagonismo se lo lleve sus característicos Hoodies",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visitar Website",
           url: "https://just4vibesclo.com/"
         }
       ]
@@ -291,7 +293,7 @@ const bigProjects = {
         "Creación completa de una app de países desde cero, empleando React, Redux y CSS para el Front-end, junto con un Back-end desarrollado en Node.js y Express. Incluyó diseño de base de datos y características como creación, búsqueda, filtros y ordenamientos.",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visitar Repositorio",
           url: "https://github.com/GeroPazPapa1/Individual-Project---Countries.git"
         }
       ]

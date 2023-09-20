@@ -58,7 +58,7 @@ function Header() {
             <li>
               <a href="#achievements">Logros</a>
             </li>
-          )}
+          )}  
           {viewBlog && (
             <li>
               <a href="#blogs">Fotos artisticas</a>
@@ -70,7 +70,7 @@ function Header() {
             </li>
           )}
           <li>
-            <a href="#contact">Contactarme</a>
+            <a href="#contact">Contactar</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
