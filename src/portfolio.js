@@ -52,7 +52,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "Lo que hago y techs!",
   subTitle:
-    "Soy un desarrollador copado que le gusta investifar diferentes tech stack y tambien ademas, aprender de los compañeros!",
+    "Soy un desarrollador copado que le gusta investigar diferentes tech stack y tambien ademas, aprender de los compañeros!",
   skills: [
     emoji(
       "⚡ Desarrollo proyectos web en Front-end / Back-end, altamente interactivas para sus aplicaciones web y móviles"
