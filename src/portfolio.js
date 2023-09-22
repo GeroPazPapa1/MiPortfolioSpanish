@@ -26,7 +26,7 @@ const greeting = {
     "Un apasionado ingenierio y desarrollador de software Full Stack 🚀con experiencia en la creación de aplicaciones web con JavaScript / React / Node / Express y algunas otras bibliotecas y frameworks interesantes. Ingenieria y MKT mis otras dos pasiones!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1FAUePMtnskBegJPIWZgRRwjt5ue4ZIJd/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1hh2b69s4rJJK6Ez4YMGVMpEBThRwAFkF/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -249,6 +249,19 @@ const bigProjects = {
   title: "Proyectos",
   subtitle: "Proyectos creados",
   projects: [
+    {
+      image: require("./assets/images/henryLogo.png"),
+      projectName: "Proyecto Final Vehibuy",
+      projectDesc: 
+        "Se participó en un equipo de desarrollo ágil, presentándole a un Product Owner avances sobre el desarrollo de un E-commerce con diseño y desarrollo de las siguientes features: localstorage, cloudinary, CRUD de productos, auth de 3ros, catálogo, pasarela de mercado pago, checkout, pop-ups, borrado lógico, reviews, adm de carrito de compras, adm de usuarios",
+      footerLink: [
+        {
+          name: "Visitar Website",
+          url: "https://vehibuy-rho.vercel.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/organicmarket.jpg"),
       projectName: "Reverberi Architect",
