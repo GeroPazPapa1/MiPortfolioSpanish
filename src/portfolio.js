@@ -23,7 +23,7 @@ const greeting = {
   username: "Paz Papa",
   title: "Hola, soy Gero!",
   subTitle: emoji(
-    "Un apasionado ingenierio y desarrollador de software Full Stack 🚀con experiencia en la creación de aplicaciones web con JavaScript / React / Node / Express y algunas otras bibliotecas y frameworks interesantes. Ingenieria y MKT mis otras dos pasiones!"
+    "Un apasionado ingenierio y desarrollador de software Full Stack 🚀con experiencia en la creación de aplicaciones web en JavaScript / React / Node / Express y algunas otras bibliotecas y frameworks interesantes. Ingenieria y MKT mis otras dos pasiones!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1hh2b69s4rJJK6Ez4YMGVMpEBThRwAFkF/view?usp=sharing", // Set to empty to hide the button
@@ -95,7 +95,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "SLACK",
-      fontAwesomeClassname: "fa-brands fa-slack"
+      fontAwesomeClassname: "fab fa-slack"
     },
     {
       skillName: "NPM",
@@ -115,12 +115,32 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "TRELLO",
-      FontAwesomeIconClassname: "fa-brands fa-trello"
+      fontAwesomeClassname: "fab fa-trello"
+    },
+    {
+      skillName: "BOOTSTRAP",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {
+      skillName: "SCRUM",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "GIT",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "INGLÉS",
+      fontAwesomeClassname: "fas fa-globe"
+    },
+    {
+      skillName: "squarespace",
+      fontAwesomeClassname: "fab fa-squarespace"
+    },
+    {
+      skillName: "FB ADS",
+      fontAwesomeClassname: "fab fa-facebook"
     }
-    //{
-    //  skillName: "docker",
-    //  fontAwesomeClassname: "fab fa-docker"
-    //}
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -201,7 +221,7 @@ const workExperiences = {
       company: "Scale Webs Miami",
       companylogo: require("./assets/images/scaleLogo.jpg"),
       date: "Jun 2023 - Actual",
-      desc: "Áreas de producto terminado, de calidad y planificación.",
+      desc: "Manejo de redes sociales, edición de videos, fotos y publicidades",
       descBullets: [
         "Gestión de redes sociales: Creación y programación de contenido en plataformas como Facebook, Instagram, y Twitter.",
         "Interacción con la audiencia: Responder preguntas, comentarios y mensajes para mantener una comunicación activa. ",
@@ -250,7 +270,7 @@ const bigProjects = {
   subtitle: "Proyectos creados",
   projects: [
     {
-      image: require("./assets/images/henryLogo.png"),
+      image: require("./assets/images/proyectofinal.jpeg"),
       projectName: "Proyecto Final Vehibuy",
       projectDesc: 
         "Se participó en un equipo de desarrollo ágil, presentándole a un Product Owner avances sobre el desarrollo de un E-commerce con diseño y desarrollo de las siguientes features: localstorage, cloudinary, CRUD de productos, auth de 3ros, catálogo, pasarela de mercado pago, checkout, pop-ups, borrado lógico, reviews, adm de carrito de compras, adm de usuarios",
@@ -263,7 +283,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/organicmarket.jpg"),
+      image: require("./assets/images/reverberi.jpeg"),
       projectName: "Reverberi Architect",
       projectDesc:
         "Mi historia con este proyecto o pagina web, empezo en 2022 cuando al crearle una carta de presentacion, para que pueda mostrar sus obras, a un arquitecto que vive en Manhattan, tuvimos una muy buena relacion laboral, por lo que le di la confianza para que me invitara luego a trabajar y vivir unos meses por allá!",
@@ -276,7 +296,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/estudioPazLogo.jpg"),
+      image: require("./assets/images/estudiopaz.jpeg"),
       projectName: "Estudio / Consultora Paz",
       projectDesc:
         "Este proyecto o pagina web, esta realizado como una landing page de la informacion y servicios que ofrece el estudio. Contiene efectos y elementos muy profesionales para brindarle al cliente la mejor presentacion.",
@@ -288,7 +308,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/Just4vibes.jpg"),
+      image: require("./assets/images/just4vibes.jpeg"),
       projectName: "Just4Vibes",
       projectDesc:
         "En este proyecto, realice una página web para un grupo de inversores quienes crearon, diseñaron y comercializan una nueva marca de ropa, llamada Just4Vibes, donde priorice el minimalismo para que el protagonismo se lo lleve sus característicos Hoodies",
@@ -300,7 +320,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/henryLogo.png"),
+      image: require("./assets/images/Henry.png"),
       projectName: "Proyecto Individual Henry",
       projectDesc:
         "Creación completa de una app de países desde cero, empleando React, Redux y CSS para el Front-end, junto con un Back-end desarrollado en Node.js y Express. Incluyó diseño de base de datos y características como creación, búsqueda, filtros y ordenamientos.",
@@ -310,8 +330,21 @@ const bigProjects = {
           url: "https://github.com/GeroPazPapa1/Individual-Project---Countries.git"
         }
       ]
+    },
+    {
+      image: require("./assets/images/Henry.png"),
+      projectName: "Proyecto Rick And Morty",
+      projectDesc:
+        "Creación de una app web de personajes de Rick and Morty, empleando React, Redux y CSS para el Front-end, junto con un Back-end desarrollado en Node.js y Express. Incluyó diseño de base de datos",
+      footerLink: [
+        {
+          name: "Visitar Repositorio",
+          url: "https://github.com/GeroPazPapa1/MyProjectRickAndMorty.git"
+        }
+      ]
     }
   ],
+  
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -355,21 +388,25 @@ const achievementSection = {
           url: "/"
         }
       ]
+    },
+    {
+      title: "EF SET English Certificate (C1 Advanced)",
+      subtitle: "The achieved English level is 64/100 on the EF SET score scale and C1 Advanced according to the Common European Framework of Reference (CEFR). The EF SET score is calculated as an average of the reading and listening scores.",
+      image: require("./assets/images/EFLOGO.jpg"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: "https://www.efset.org/cert/2x4yiW"},
+      ]
+    },
+    {
+      title: "XVII CONGRESO ARGENTINO DE INGENIEROS INDUSTRIALES",
+      subtitle: "El Comité Organizador del XVII CAEll Córdoba 2019 y la Asociación Argentina de Estudiantes de Ingeniería Industrial y carreras afines, junto a la Universidad Tecnológica Nacional - Facultad Regional Córdoba y a la Universidad Nacional de Córdoba",
+      image: require("./assets/images/aareii.png"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: "https://drive.google.com/file/d/1nHKalTVPkKliFSje6CMnALxRsj4TQ1A3/view?usp=sharing"},
+      ]
     }
-
-    //{
-    //  title: "PWA Web App Developer",
-    //  subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-    //  image: require("./assets/images/pwaLogo.webp"),
-    //  imageAlt: "PWA Logo",
-    //  footerLink: [
-    //    {name: "Certification", url: ""},
-    //    {
-    //     name: "Final Project",
-    //     url: "https://pakistan-olx-1.firebaseapp.com/"
-    //    }
-    //  ]
-    //}
   ],
   display: true // Set false to hide this section, defaults to true
 };
