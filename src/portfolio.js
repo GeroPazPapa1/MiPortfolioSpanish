@@ -26,7 +26,7 @@ const greeting = {
     "Un apasionado ingenierio y desarrollador de software Full Stack 🚀con experiencia en la creación de aplicaciones web en JavaScript / React / Node / Express y algunas otras bibliotecas y frameworks interesantes. Ingenieria y MKT mis otras dos pasiones!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1hh2b69s4rJJK6Ez4YMGVMpEBThRwAFkF/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1zJGAnSDb9M2zgoeqhHoUBsVl6dCzLz0c/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
