@@ -140,6 +140,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "FB ADS",
       fontAwesomeClassname: "fab fa-facebook"
+    },
+    {
+      skillName: "FIGMA",
+      fontAwesomeClassname: "fab fa-figma"
     }
   ],
   display: true // Set false to hide this section, defaults to true
