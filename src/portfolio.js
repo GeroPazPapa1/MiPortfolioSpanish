@@ -315,7 +315,7 @@ const bigProjects = {
       image: require("./assets/images/just4vibes.jpeg"),
       projectName: "Just4Vibes",
       projectDesc:
-        "El objetivo de este proyecto era la realización de una página web para un grupo de inversores. El objetivo de ellos, era diseñar y comercializar una nueva marca de ropa. Al diseñar esta página web, tenía como prioridad mostrar un estilo minimalista, para así poder centrar su atención en sus característicos Hoodies.",
+        "El objetivo de este proyecto era la realización de una página web para un grupo de inversores. Ellos buscaban, diseñar y comercializar una nueva marca de ropa. Al diseñar esta página web, tenía como prioridad mostrar un estilo minimalista, para así poder centrar su atención en sus característicos Hoodies.",
       footerLink: [
         {
           name: "Visitar Website",
