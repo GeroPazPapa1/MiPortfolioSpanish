@@ -23,7 +23,7 @@ const greeting = {
   username: "Paz Papa",
   title: "Hola, soy Gero!",
   subTitle: emoji(
-    "Un apasionado ingenierio y desarrollador de software Full Stack 🚀con experiencia en la creación de aplicaciones web en JavaScript / React / Node / Express y algunas otras bibliotecas y frameworks interesantes. Ingenieria y MKT mis otras dos pasiones!"
+    "Un apasionado ingenierio y desarrollador web Full Stack 🚀con experiencia en tecnologías como JavaScript / React / Node / Express y algunos otros frameworks interesantes. Marketing e ingeniería mis otras dos pasiones!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1mCdq0QF7SLpYvg2sXBzSc3xV65Lbp2RH/view?usp=sharing", // Set to empty to hide the button
@@ -50,7 +50,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Lo que hago y techs!",
+  title: "Tecnologías",
   subTitle:
     "Soy un desarrollador copado que le gusta investigar diferentes tech stack y tambien ademas, aprender de los compañeros!",
   skills: [
@@ -215,9 +215,9 @@ const workExperiences = {
       desc: "Argentina/Estados Unidos.",
       descBullets: [
         "Desarrollar e-commerce, landing pages y aplicaciones web utilizando (React, Redux, Axios, Node js , Express, Morgan, Cors, Dotenv y plantillas)",
-        "Concepción y optimización de contenido visual y estrategias de marketing en plataformas digitales. Diseñar y editar fotos/videos utilizando (Adobe Illustrator, Photoshop, Figma y apps de edición)",
-        "Publicidades utilizando Facebook ads en el desarrollo de anuncios y campañas en redes sociales. Business manager",
-        "Experiencia en la creación de materiales atractivos y efectivos maximizando el impacto y la visibilidad de las marcas. Con habilidades demostradas en la gestión y el cultivo de una identidad de marca"
+        "Estrategias de marketing en plataformas digitales. Uso de: Adobe Illustrator, Photoshop, Figma entre otras)",
+        "Publicidad utilizando en meta ads, para campañas en redes sociales",
+        "Creación de identidad visual de marca"
       ]
     },
     {
@@ -225,13 +225,24 @@ const workExperiences = {
       company: "Scale Webs Miami",
       companylogo: require("./assets/images/scaleLogo.jpg"),
       date: "Jun 2023 - Actual",
-      desc: "Manejo de redes sociales, edición de videos, fotos y publicidades",
+      desc: "Freelance",
       descBullets: [
-        "Gestión de redes sociales: Creación y programación de contenido en plataformas como Facebook, Instagram, y Twitter.",
+        "Gestión de redes sociales en base a una planificacíon mensual para cada red social requerida.",
         "Interacción con la audiencia: Responder preguntas, comentarios y mensajes para mantener una comunicación activa. ",
         "Análisis de métricas: Seguimiento de estadísticas de redes sociales para mejorar estrategias y alcance.",
-        "Desarrollo de contenido: Creación de contenido relevante y atractivo, como imágenes, videos o blogs.",
-        "Estrategia de marketing: Colaboración en la planificación de campañas y promociones."
+        "Creador de contenido atractivo y relevante.",
+        "Marketing estratégico, planificación de campañas y promociones"
+      ]
+    },
+    {
+      role: "Nueva York, Manhattan",
+      company: "Gerenciamiento y Pág web ",
+      companylogo: require("./assets/images/organicmarket.jpg"),
+      date: "Dic 2021 - May 2022.",
+      desc: "Freelance",
+      descBullets: [
+        "Creación de pagina web para el arquitecto Juan Cruz Reverberi",
+        "Mejorar los procedimientos/procesos, administración general, control de calidad, stock, inventario, seguimiento de pedidos."
       ]
     },
     {
@@ -242,18 +253,7 @@ const workExperiences = {
       desc: "Áreas de producto terminado, de calidad y planificación.",
       descBullets: [
         "Consolidar el diseño y desarrollo del software para facilitar la colocación de los productos en conjunto con una nomenclatura para la asignación y recomendación de espacios disponibles.",
-        "Dirigir un proyecto de automatización junto con el layout en el área de producto terminado, para automatizar y mejorar los procesos de la fábrica, en pos de digitalizar y perfeccionar las tareas."
-      ]
-    },
-    {
-      role: "Nueva York, Manhattan",
-      company: "Gerenciamiento y Pág web ",
-      companylogo: require("./assets/images/organicmarket.jpg"),
-      date: "Dic 2021 - May 2022.",
-      desc: "Freelance",
-      descBullets: [
-        "Mejorar los procedimientos/procesos, administración general, control de calidad, stock, inventario, seguimiento de pedidos.",
-        "Pagina web sobre Arte a un arquitecto que vive en Manhattan "
+        "Dirigir un proyecto de automatización para automatizar y mejorar los procesos de la fábrica con el fin de digitalizar y perfeccionar las tareas."
       ]
     }
   ]
@@ -290,7 +290,7 @@ const bigProjects = {
       image: require("./assets/images/reverberi.jpeg"),
       projectName: "Reverberi Architect",
       projectDesc:
-        "Mi historia con este proyecto o pagina web, empezo en 2022 cuando al crearle una carta de presentacion, para que pueda mostrar sus obras, a un arquitecto que vive en Manhattan, tuvimos una muy buena relacion laboral, por lo que le di la confianza para que me invitara luego a trabajar y vivir unos meses por allá!",
+        "Este proyecto empezó en el año 2022, cuando el arquitecto Juan Cruz Reverberi, hace uso de mis servicios al contratarme para que le redacte una carte de presentación y asi poder mostrar su obras.",
       footerLink: [
         {
           name: "Visitar Website",
@@ -303,7 +303,7 @@ const bigProjects = {
       image: require("./assets/images/estudiopaz.jpeg"),
       projectName: "Estudio / Consultora Paz",
       projectDesc:
-        "Este proyecto o pagina web, esta realizado como una landing page de la informacion y servicios que ofrece el estudio. Contiene efectos y elementos muy profesionales para brindarle al cliente la mejor presentacion.",
+        "Esta pagina web, está realizada como una landing page, donde se ofrece información del estudio y que servicios ofrece a sus clientes.",
       footerLink: [
         {
           name: "Visitar Website",
@@ -315,7 +315,7 @@ const bigProjects = {
       image: require("./assets/images/just4vibes.jpeg"),
       projectName: "Just4Vibes",
       projectDesc:
-        "En este proyecto, realice una página web para un grupo de inversores quienes crearon, diseñaron y comercializan una nueva marca de ropa, llamada Just4Vibes, donde priorice el minimalismo para que el protagonismo se lo lleve sus característicos Hoodies",
+        "El objetivo de este proyecto era la realización de una página web para un grupo de inversores. El objetivo de ellos, era diseñar y comercializar una nueva marca de ropa. Al diseñar esta página web, tenía como prioridad mostrar un estilo minimalista, para así poder centrar su atención en sus característicos Hoodies.",
       footerLink: [
         {
           name: "Visitar Website",
@@ -327,7 +327,7 @@ const bigProjects = {
       image: require("./assets/images/Henry.png"),
       projectName: "Proyecto Individual Henry",
       projectDesc:
-        "Creación completa de una app de países desde cero, empleando React, Redux y CSS para el Front-end, junto con un Back-end desarrollado en Node.js y Express. Incluyó diseño de base de datos y características como creación, búsqueda, filtros y ordenamientos.",
+        "Creación completa de una aplicación de países desde cero, empleando React, Redux y CSS para el Front-end, junto con un Back-end desarrollado en Node.js y Express. En esta aplicación se incluyó el diseño de base de datos y también se incluyeron características como, creación, búsqueda, ordenamientos y filtros.",
       footerLink: [
         {
           name: "Visitar Repositorio",
@@ -339,7 +339,7 @@ const bigProjects = {
       image: require("./assets/images/Henry.png"),
       projectName: "Proyecto Rick And Morty",
       projectDesc:
-        "Creación de una app web de personajes de Rick and Morty, empleando React, Redux y CSS para el Front-end, junto con un Back-end desarrollado en Node.js y Express. Incluyó diseño de base de datos",
+        "Creación de una aplicación web de personajes de Rick and Morty, empleando React, Redux y CSS para el Front-end, junto con un Back-end desarrollado en Node.js y Express. También se llevó a cabo el diseño de base de datos.",
       footerLink: [
         {
           name: "Visitar Repositorio",
@@ -420,14 +420,14 @@ const achievementSection = {
 const blogSection = {
   title: "Fotos artisticas",
   subtitle:
-    "Amor por crear fotos artisticas, me encanta sacar fotos, editar videos y enseñarle a otros lo que he aprendido.",
+    "Soy un aficionado creador de fotos artísticas, compartirlas con el mundo. También comparto esa misma dedicación a la edición de videos. ",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://www.instagram.com/minimalismforgeronico/",
       title: "Minimalism By Gero Nico",
       description:
-        "Luego de haber viajado a Nueva York, Manhattan desarrolle una pasion por sacar fotos y filmar lugares buscando darle un tono artistico."
+        "Luego de haber concluido mi viaje por Nueva York, Manhattan, desarrollé una gran atracción a la filmación de videos y la creación de fotografías altamente artísticas."
     }
     //{
     //  url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
@@ -444,7 +444,7 @@ const blogSection = {
 const talkSection = {
   title: "Deportes",
   subtitle: emoji(
-    "Tengo un amor por las bicicletas y el futbol, toda la vida competi en mountain bike y ahora hago decenso🚲😅"
+    "Aficionado del futbol, del mountain bike y decenso🚲😅"
   ),
 
   talks: [
