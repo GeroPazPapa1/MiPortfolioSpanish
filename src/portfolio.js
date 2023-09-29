@@ -50,7 +50,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Tecnologías",
+  title: "Tecnologías1",
   subTitle:
     "Soy un desarrollador copado que le gusta investigar diferentes tech stack y tambien ademas, aprender de los compañeros!",
   skills: [
