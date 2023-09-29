@@ -420,7 +420,7 @@ const achievementSection = {
 const blogSection = {
   title: "Fotos artisticas",
   subtitle:
-    "Soy un aficionado creador de fotos artísticas, compartirlas con el mundo. También comparto esa misma dedicación a la edición de videos. ",
+    "Soy un aficionado creador de fotos artísticas, compartirlas con el mundo. También comparto esa misma dedicación a la edición de videos.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
