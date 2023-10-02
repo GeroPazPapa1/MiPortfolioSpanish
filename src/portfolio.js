@@ -26,14 +26,14 @@ const greeting = {
     "Un apasionado ingenierio y desarrollador web Full Stack 🚀con experiencia en tecnologías como JavaScript / React / Node / Express y algunos otros frameworks interesantes. Marketing e ingeniería mis otras dos pasiones!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1mCdq0QF7SLpYvg2sXBzSc3xV65Lbp2RH/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1lxgwyVeoxC3ggmqsNYDeF1k76rLWIpmn/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  linkedin: "https://www.linkedin.com/in/ger%C3%B3nimo-nicol%C3%A1s-paz-papa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  linkedin: "https://www.linkedin.com/in/geronimo-nicolas-paz-papa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   github: "https://github.com/GeroPazPapa1",
   gmail: "geronimonicolaspazpapa@gmail.com",
   twitter: "https://twitter.com/IngeEnPrograma",
