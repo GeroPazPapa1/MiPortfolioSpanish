@@ -33,7 +33,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  linkedin: "www.linkedin.com/in/gerónimo-nicolás-paz-papa",
+  linkedin: "https://www.linkedin.com/in/ger%C3%B3nimo-nicol%C3%A1s-paz-papa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   github: "https://github.com/GeroPazPapa1",
   gmail: "geronimonicolaspazpapa@gmail.com",
   twitter: "https://twitter.com/IngeEnPrograma",
