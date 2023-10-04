@@ -388,8 +388,8 @@ const achievementSection = {
       imageAlt: "Programador Fullstack",
       footerLink: [
         {
-          name: "Certificacion",
-          url: "/"
+          name: "Certificación",
+          url: "https://certificates.soyhenry.com/new-cert?id=98349bf95229c289c32b8197fedd00b0f00b45294e0e28dfac33617925209a95"
         }
       ]
     },
@@ -399,7 +399,7 @@ const achievementSection = {
       image: require("./assets/images/EFLOGO.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: "https://www.efset.org/cert/2x4yiW"},
+        {name: "Certificación", url: "https://www.efset.org/cert/2x4yiW"},
       ]
     },
     {
@@ -408,7 +408,7 @@ const achievementSection = {
       image: require("./assets/images/aareii.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1nHKalTVPkKliFSje6CMnALxRsj4TQ1A3/view?usp=sharing"},
+        {name: "Certificación", url: "https://drive.google.com/file/d/1nHKalTVPkKliFSje6CMnALxRsj4TQ1A3/view?usp=sharing"},
       ]
     }
   ],
