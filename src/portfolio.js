@@ -50,7 +50,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Tecnologías1",
+  title: "Tecnologías!",
   subTitle:
     "Soy un desarrollador copado que le gusta investigar diferentes tech stack y tambien ademas, aprender de los compañeros!",
   skills: [
@@ -422,6 +422,8 @@ const achievementSection = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
+
 
 // Blogs Section
 
