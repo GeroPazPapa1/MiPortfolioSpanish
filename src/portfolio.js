@@ -23,7 +23,7 @@ const greeting = {
   username: "Paz Papa",
   title: "Hola, soy Gero!",
   subTitle: emoji(
-    "Un apasionado ingenierio y desarrollador web Full Stack 🚀con experiencia en tecnologías como JavaScript / React / Node / Express y algunos otros frameworks interesantes. Ganador Becas Naves con el emprendimiento MIT-Wallet. Marketing e ingeniería mis otras dos pasiones!"
+    "Un apasionado ingenierio industrial y desarrollador web Full Stack 🚀con experiencia en tecnologías como JavaScript / React / Node / Express y algunos otros frameworks interesantes. Ganador Becas Naves con el emprendimiento MIT-Wallet. Marketing e ingeniería mis otras dos pasiones!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1c5kZrakLspzBXp9JXXMRXFI2ZYGeV0xk/view?usp=sharing", // Set to empty to hide the button
