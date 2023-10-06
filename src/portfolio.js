@@ -23,7 +23,7 @@ const greeting = {
   username: "Paz Papa",
   title: "Hola, soy Gero!",
   subTitle: emoji(
-    "Un apasionado ingenierio y desarrollador web Full Stack 🚀con experiencia en tecnologías como JavaScript / React / Node / Express y algunos otros frameworks interesantes. Marketing e ingeniería mis otras dos pasiones!"
+    "Un apasionado ingenierio y desarrollador web Full Stack 🚀con experiencia en tecnologías como JavaScript / React / Node / Express y algunos otros frameworks interesantes. Ganador Becas Naves con el emprendimiento MIT-Wallet. Marketing e ingeniería mis otras dos pasiones!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1c5kZrakLspzBXp9JXXMRXFI2ZYGeV0xk/view?usp=sharing", // Set to empty to hide the button
@@ -216,6 +216,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "GANADOR Becas naves 🚀, CTO - Full Stack Developer",
+      company: "MIT-Wallet",
+      companylogo: require("./assets/images/wallet.jpg"),
+      date: "Feb 2023 - Actual",
+      desc: "Argentina",
+      descBullets: [
+        "MITWallet es una Billetera Impresa en 3D con Bio Material Sostenible y Chip NFC integrado que la vincula a una Plataforma de Presentación Online (BCO) para ofrecer una alternativa a la Billetera tradicional que integra Diseño, Tecnología y Sustentabilidad",
+        "Innovamos en el concepto de Billetera/Tarjetero y Tarjeta de Presentación para unificarlas en una solución superadora.",
+        "https://madeintuc.com"
+      ]
+    },
+    {
       role: "Full Stack Developer, Marketing",
       company: "Freelance",
       companylogo: require("./assets/images/fullstackLogo.jpg"),
@@ -243,17 +255,6 @@ const workExperiences = {
       ]
     },
     {
-      role: "Nueva York, Manhattan",
-      company: "Gerenciamiento y Pág web ",
-      companylogo: require("./assets/images/organicmarket.jpg"),
-      date: "Dic 2021 - May 2022.",
-      desc: "Freelance",
-      descBullets: [
-        "Creación de pagina web para el arquitecto Juan Cruz Reverberi",
-        "Mejorar los procedimientos/procesos, administración general, control de calidad, stock, inventario, seguimiento de pedidos."
-      ]
-    },
-    {
       role: "Ingeniero",
       company: "Fabrica Rivoli S.A",
       companylogo: require("./assets/images/rivoliLogo.jpg"),
@@ -262,6 +263,17 @@ const workExperiences = {
       descBullets: [
         "Consolidar el diseño y desarrollo del software para facilitar la colocación de los productos en conjunto con una nomenclatura para la asignación y recomendación de espacios disponibles.",
         "Dirigir un proyecto de automatización para automatizar y mejorar los procesos de la fábrica con el fin de digitalizar y perfeccionar las tareas."
+      ]
+    },
+    {
+      role: "Nueva York, Manhattan",
+      company: "Gerenciamiento y Pág web ",
+      companylogo: require("./assets/images/organicmarket.jpg"),
+      date: "Dic 2021 - May 2022.",
+      desc: "Freelance",
+      descBullets: [
+        "Creación de pagina web para el arquitecto Juan Cruz Reverberi",
+        "Mejorar los procedimientos/procesos, administración general, control de calidad, stock, inventario, seguimiento de pedidos."
       ]
     }
   ]
